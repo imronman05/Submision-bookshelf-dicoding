@@ -1,0 +1,60 @@
+/*Ukuran Tablet*/
+@media screen and (max-width: 890px){
+	.head_bar{
+		height: 8em;
+	}
+	.contaier-header{
+		width: 65%;
+		display: grid;
+		grid-template-columns: auto auto; 
+		align-items: center;
+		justify-content: space-between;
+	}
+	.search_section{
+    	width: 100%;
+    	margin-left: 65%;
+    	margin-top: 5%;
+	}
+	.searchBook > button{
+		height: 100%;
+	    width: 12%;
+	}
+	aside{
+		grid-template-columns: auto;
+	}
+	.popup-card,.popup-done{
+		width: 50%;
+    	left: 25%;
+	}
+}
+/*Ukuran Mobile*/
+@media screen and (max-width: 430px){
+	.contaier-header{
+		width: 100%;
+	}
+	.search_section{
+    	margin-left: 20%;
+	}
+	.searchBook > button {
+		width: 4vmax;
+		height: 4vmax;
+	}
+	main{
+		max-width: 100%;
+	}
+	.input_section{
+		max-width: 100% !important;
+		max-height: 100%;
+	}
+	.popup-card,.popup-done{
+		width: 95%;
+    	left: 3%;
+	}
+	.popup-card{
+		padding-top: 5%;
+	}
+	.popup-done{
+		height: 60%;
+		padding-top:  15%;
+	}
+}
